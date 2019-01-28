@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B4F72;
+    font-family: 'Chathura', sans-serif;
+}
+
+.container{
+    width: 100%;
+    margin-right: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 4em;
+    color: white;
+
+}
+
+
+#messages {
+    width: 95%;
+    max-width: 400px;
+    height: 350px;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc inset;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.message {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputForm {
+    width: 200px;
+    margin-left:36%;
+    margin-top: 20px;
+    background-color: #D6EAF8;
+    border-radius: 5px;
+
+}
+
+.textareaForm{
+    width: 400px;
+    height: 60px;;
+    margin-left: 36%;
+    margin-top: 20px;
+    background-color: #D6EAF8;
+    border-radius: 5px;
+
+}
+
+.button{
+    width:150px;
+    height: 30px;
+    background-color: #D6EAF8;
+    border-radius: 5px;
+    border: 1px solid #1B4F72;
+    box-shadow: 0px 0px 20px #ccc inset;
+    margin-top: 20px;
+    margin-left: 36%;
+}
+
+@media (max-width: 400px) {
+    .container{
+        width: 100%;
+        margin-right: 70px;
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 4em;
+        color: white;
+    }
+    #messages{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .inputForm{
+        margin-left: 12%;
+    }
+    .textareaForm{
+        margin-left: 12%;
+        width: 350px;
+
+    }
+    .button{
+        margin-left: 12%;
+
+    }
+}
